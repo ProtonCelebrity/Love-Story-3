@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Love Story</title>
+    <style>
+      header {
+        position: absolute;
+        top: 20%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+      }
+      img {
+        position: relative;
+      }
+      .img1 {
+        left: 100px;
+        top: 50px;
+      }
+      .img2 {
+        top: 0px;
+        left:225px;
+      }
+      .img3 {
+        top: 50px;
+        left: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Love Story</h1>
+    </header>
+    <img src="2.jpg" alt="Image 1" class="img1" style="width: 350px; height: 500px;">
+    <img src="3.jpg" alt="Image 2" class="img2" style="width: 300px; height: 300px;">
+    <img src="4.jpg" alt="Image 3" class="img3" style="width: 300px; height: 500px;">
+  </body>
+</html>
